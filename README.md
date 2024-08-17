@@ -1,10 +1,10 @@
-for the above project , to upload the files into the s3 bucket we must need the .env file
-   -----> create .env in the root folder(where package.json located )
-   content inside the .env should be like this : 
-    REACT_APP_ACCESS_KEY=your access key 
-    REACT_APP_SECRET_ACCESS_KEY=your aws secret key 
-    REACT_APP_S3_BUCKET=your s3 bucket name 
-    REACT_APP_REGION=your aws specified region (ap-south-1) 
+### for the above project , to upload the files into the s3 bucket we must need the .env file
+   -----> create .env in the root folder(where package.json located ) \
+   content inside the .env should be like this :  \
+    REACT_APP_ACCESS_KEY=your access key  \
+    REACT_APP_SECRET_ACCESS_KEY=your aws secret key  \
+    REACT_APP_S3_BUCKET=your s3 bucket name  \
+    REACT_APP_REGION=your aws specified region (ap-south-1) \
 
 
 it has the production build files located inside the ` /build ` 
