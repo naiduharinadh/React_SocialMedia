@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+div[id="headername"]{
+  height: 20%;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.headername {
+  width: 55vh;
+  background: linear-gradient(to right, rgb(95, 140, 237), rgb(228, 105, 144));
+  border-radius: 15px;
+  padding: 4px 2vh; /* Adjust padding as needed */
+  margin-left: 7vh;
+  padding-left: 4vh;
+  align-content: first baseline;
+  margin-top: -5.7vh;
+  text-align: left; /* Ensure text is aligned to the left */
+}
+
+#headername:hover {
+  background: linear-gradient(to right,rgb(217, 113, 146),rgb(67, 119, 232));
+  cursor: pointer;
+}
+

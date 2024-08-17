@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+div[id="headername"]{
+  height: 20%;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+.headername {
+  background: linear-gradient(to right, rgb(67, 119, 232), rgb(232, 67, 119));
+  border-radius: 12.5px;
+  padding: 2vh 2vh; /* Adjust padding as needed */
+  align-content: first baseline;
+  margin-left: 10vh;
+  text-align: left; /* Ensure text is aligned to the left */
+}
+
+.headername:hover {
+  background: linear-gradient(to right,rgb(232, 67, 119),rgb(67, 119, 232));
+  cursor: pointer;
+}
+

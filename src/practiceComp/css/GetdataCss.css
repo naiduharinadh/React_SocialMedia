@@ -1,0 +1,35 @@
+/* Styles for the container */
+.container {
+    width: 500px;
+    height: 40px;
+    background-color: #e90a0a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+}
+
+/* Styles for sub-part 1 */
+.sub-part1 {
+    width: 45%;
+    height: 100%;
+    background-color: #f36666;
+    text-align: center;
+    line-height: 10px;
+}
+
+/* Styles for sub-part 2 */
+.sub-part2 {
+    width: 45%;
+    height: 100%;
+    background-color: #eb8686;
+    text-align: center;
+    line-height: 10px;
+}
+
+/* Hover effect */
+.container:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
