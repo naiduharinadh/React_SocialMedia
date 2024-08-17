@@ -3,10 +3,10 @@ import AWS from 'aws-sdk';
 import { Button, TextField } from '@mui/material';
 
 // AWS S3 configuration
-const S3_BUCKET = 'reactusersbucket';
-const REGION = 'ap-southeast-1';
-const ACCESS_KEY = 'AKIAQFLZDRFK3GKRFB7C';
-const SECRET_ACCESS_KEY = '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';
+const S3_BUCKET = process.env.REACT_APP_S3_BUCKET;
+const REGION = process.env.REACT_APP_REGION;
+const ACCESS_KEY = process.env.REACT_APP_ACCESS_KEY;
+const SECRET_ACCESS_KEY = process.env.REACT_APP_SECRET_ACCESS_KEY;
 
 AWS.config.update({
   accessKeyId: ACCESS_KEY,
