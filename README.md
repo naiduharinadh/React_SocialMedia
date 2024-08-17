@@ -1,23 +1,15 @@
-# Getting Started with Create React App
+for the above project , to upload the files into the s3 bucket we must need the .env file
+   -----> create .env in the root folder(where package.json located )
+   content inside the .env should be like this : 
+    REACT_APP_ACCESS_KEY=your access key 
+    REACT_APP_SECRET_ACCESS_KEY=your aws secret key 
+    REACT_APP_S3_BUCKET=your s3 bucket name 
+    REACT_APP_REGION=your aws specified region (ap-south-1) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+it has the production build files located inside the ` /build ` 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To connect with the rest API , update the rest api url in the ` .env.production `  with the your API_URL then build the  web pack again
 
 ### `npm run build`
 
