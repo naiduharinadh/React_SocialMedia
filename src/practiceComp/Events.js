@@ -6,7 +6,7 @@ import "./form.css";
 
 const bcryptjs = require('bcryptjs');
 const SpringbootUrl = process.env.REACT_APP_API_URL;
-
+//const SpringbootUrl = "http://localhost:8080";
 // Set a random fallback
 bcryptjs.setRandomFallback((len) => crypto.randomBytes(len).toString('hex'));
 

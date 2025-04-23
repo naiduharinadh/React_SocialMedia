@@ -1,6 +1,12 @@
-const setRandomFallback = require("bcryptjs");
+const setRandomFallback = require("crypto-browserify");
 import { resolve } from "path";
 
+
+
+
+
 module.exports = {
-  resolve:{ setRandomFallback:{"crypto": false}}
+  resolve:{ setRandomFallback:{"crypto": crypto-browserify}}
+  
 }
+
