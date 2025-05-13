@@ -32,7 +32,7 @@ function HariNadh1() {
             email,
             reEnterPassword:hashedPassword
         });
-        navigate(`${SpringbootUrl}/home/success`);
+        navigate(`/home/success`);
     }
 
     /*
